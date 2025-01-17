@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import CTA from "@/components/CTA";
 import DatabaseViewer from "@/components/database-viewer";
+
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -24,6 +25,7 @@ export default function Home() {
 				{/* Add padding top to account for fixed navbar */}
 				<section id="Home">
 					<Hero />
+					<DatabaseViewer />
 				</section>
 				<section id="Features">
 					<HowItWorks />
